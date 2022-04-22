@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" crossorigin="anonymous" />
+
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+
+  <title>boxing_academy</title>
+
+  <link rel="stylesheet" href="./ui-toolbar/main-ui-toolbar-media-query.css">
+  <link rel="stylesheet" href="./setup-container/setup-container.css" />
+  <link rel="stylesheet" href="./main-ui/main-ui.css" />
+  <link rel="stylesheet" href="./formxvi/formxvi-layout.css" />
+</head>
+
+<body>
+  <div class="main-ui">
+    <div class="window">
+      <div class="component-ui-toolbar">
+        <div class="card">
+          <div class="card-body">
+            <span class="toolbar  user">
+              <section class="sec-1">
+                <span class="toolbar-item app-drawer" style="display: none;">
+                  <span class="material-icons"> menu </span>
+                </span>
+                <span class="toolbar-item app-name"><b>Boxing Academy</b></span>
+              </section>
+              <section class="sec-2">
+                <span class="toolbar-item logout" id="logout">
+                  <span class="material-icons"> logout </span>
+                </span>
+              </section>
+              <span class="menu">
+                <span class="menu-item active" id="adminAcademy"><b>Academy</b></span>
+                <span class="menu-item" id="adminCourse"><b>Courses</b></span>
+                <span class="menu-item" id="adminStudents"><b>Students</b></span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="setup-container">
+        <div class="formxvi-container">
+          <form id="myForm" class="formxvi-form">
+            <div class="formxvi-layout">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title">Add Academy</div>
+                  <div class="input-fields">
+                    <span class="input-field">
+                      <label for="i1" class="form-label">Academy Name</label>
+                      <input id="i1" type="text" name="i1" class="form-control" placeholder="" />
+                      <div class="inline-error-msg">Invalid name</div>
+                    </span>
+                    <span class="input-field error">
+                      <label for="i2" class="form-label">Phone Number</label>
+                      <input id="i2" type="text" name="i2" class="form-control" placeholder="" />
+                      <div class="inline-error-msg">Phone number must have 10 digits</div>
+                    </span>
+                    <div class="formxvi-container child">
+                      <div class="formxvi-layout child">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title">Add Academy</div>
+                            <div class="input-fields">
+                              <span class="input-field">
+                                <label for="ic1" class="form-label">Academy Name</label>
+                                <input id="ic1" type="text" name="ic1" class="form-control" placeholder="" />
+                                <div class="inline-error-msg">Invalid name</div>
+                              </span>
+                              <span class="input-field error">
+                                <label for="ic2" class="form-label">Phone Number</label>
+                                <input id="ic2" type="text" name="ic2" class="form-control" placeholder="" />
+                                <div class="inline-error-msg">Phone number must have 10 digits</div>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="input-field text-area error">
+                      <div class="form-floating">
+                        <textarea id="i3" name="i3" form="myForm" class="form-control" placeholder="Enter Description"
+                          style="height: 100px"></textarea>
+                        <label for="i3">Description</label>
+                        <div class="inline-error-msg">Please enter description</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="formxvi-buttons">
+                    <button type="button" class="btn btn-danger btn-sm">CLEAR</button>
+                    <button type="button" class="btn btn-primary btn-sm" disabled>SUBMIT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

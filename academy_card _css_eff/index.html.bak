@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" crossorigin="anonymous" />
+  <title>geo_chat_v1</title>
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .main-ui {
+      width: 100%;
+      height: 100%;
+      background-color: rgb(218, 216, 216);
+    }
+
+    .window {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  </style>
+  <!--<link rel="stylesheet" href="./list-card-display-details.css">-->
+
+  <!--<link rel="stylesheet" href="./grid-card-display-details.css">-->
+
+  <link rel="stylesheet" href="./list-card-display-details.css">
+
+</head>
+
+<body>
+  <div class="main-ui">
+    <div class="window">
+      <div class="display-card p-2">
+        <div class="card">
+          <div class="display-card-image">
+            <img src="https://images.indianexpress.com/2020/06/the-matrix-759.jpg" alt="">
+          </div>
+          <div class="card-body">
+            <div class="details">
+              <section class="sec one">
+                <div class="level one">
+                  <div class="item one">
+                    <b>Spring & Hibernate for Beginners (includes Spring Boot)</b>
+                  </div>
+                  <div class="item two">
+                    Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate
+                    Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring
+                    REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring
+                    REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring
+                    REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring
+                    REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring
+                    REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring
+                    REST, Spring Boot 2,
+                    Thymeleaf, JPA & Hibernate
+                  </div>
+                </div>
+              </section>
+              <section class="sec two">
+                <div class="level one">
+                  <span class="item one">
+                    <span class="material-icons">schedule</span>
+                    <span class="item-value">3 months</span>
+                  </span>
+                  <span class="item two">
+                    <span class="material-icons">timelapse</span>
+                    <span class="item-value">6am - 6pm</span>
+                  </span>
+                  <span class="item three">
+                    <span class="material-icons">people</span>
+                    <span class="item-value">103</span>
+                  </span>
+                  <span class="item four">
+                    <span class="material-icons">place</span>
+                    <span class="item-value">Hyderabad</span>
+                  </span>
+                  <span class="item five">
+                    <span class="material-icons mx-1">
+                      <img class="material-icons" src="https://img.icons8.com/dotty/80/000000/mailbox-with-letter.png"
+                        alt="Zipcode" style="width: 22px; height: 22px;" />
+                    </span>
+                    <span class="item-value">721305</span>
+                  </span>
+                </div>
+                <div class="row justify-content-center level two">
+                  <span class="col-auto item one">
+                    <span class="material-icons">star</span>
+                    <span class="material-icons">star</span>
+                    <span class="material-icons">star</span>
+                    <span class="material-icons">star_border</span>
+                    <span class="material-icons">star_border</span>
+                  </span>
+                </div>
+              </section>
+              <section class="sec three">
+                <div class="level one">
+                  <span class="toolbar-item one">
+                    <button type="button" class="btn btn-primary">Edit</button>
+                  </span>
+                  <span class="toolbar-item two">
+                    <button type="button" class="btn btn-primary">Delete</button>
+                  </span>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
